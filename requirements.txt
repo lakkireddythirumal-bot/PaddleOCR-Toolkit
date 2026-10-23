@@ -1,0 +1,12 @@
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+python-multipart>=0.0.9
+paddleocr==2.9.1
+# Confirm this CPU wheel is compatible with your OS/Python from the official install guide.
+paddlepaddle==2.6.2
+Pillow>=10.0
+PyMuPDF>=1.23
+numpy<2
+pydantic-settings>=2.2
+httpx>=0.27
+pytest>=8.0
